@@ -1,0 +1,26 @@
+#unsplash{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: auto;
+    
+}
+
+.disappear{
+
+animation: example 0.5s forwards;
+}
+
+@keyframes example {
+   
+    100% {opacity: 0;
+        visibility: hidden;}
+  }
